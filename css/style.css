@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  padding: 0 50px;
+  background-color: cornsilk;
+  height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  display: flex;
+}
+.nav-left span {
+  font-size: 25px;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 50px;
+  font-size: 17px;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-right {
+}
+.content {
+}
+.footer {
+}
