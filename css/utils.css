@@ -1,3 +1,7 @@
+:root {
+  --main-color-dark: rgb(29, 42, 66);
+  --main-color-light: rgb(199, 241, 241);
+}
 .max-width-1 {
   max-width: 80vw;
 }
@@ -14,10 +18,11 @@
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
   cursor: pointer;
+  transition: all 0.2s ease-in;
 }
 .btn:hover {
   color: aliceblue;
-  background-color: rgb(53, 103, 196);
+  background-color: var(--main-color-dark);
 }
 .form-input {
   padding: 5px 7px;
