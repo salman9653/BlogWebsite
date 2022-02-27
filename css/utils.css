@@ -1,6 +1,8 @@
 :root {
   --main-color-dark: rgb(29, 42, 66);
   --main-color-light: rgb(199, 241, 241);
+  --text-color-light: aliceblue;
+  --text-color-dark: rgb(59, 57, 57);
 }
 .max-width-1 {
   max-width: 80vw;
@@ -12,6 +14,7 @@
   margin: auto;
 }
 .btn {
+  color: var(--text-color-dark);
   padding: 5px 10px;
   margin: 0;
   border: 1px solid rgb(70, 67, 67);
@@ -21,8 +24,8 @@
   transition: all 0.2s ease-in;
 }
 .btn:hover {
-  color: aliceblue;
-  background-color: var(--main-color-dark);
+  color: var(--text-color-dark);
+  background-color: var(--main-color-light);
 }
 .form-input {
   padding: 5px 7px;
