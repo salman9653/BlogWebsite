@@ -13,7 +13,7 @@
 .m-auto {
   margin: auto;
 }
-.btn {
+.nav-btn {
   color: var(--text-color-dark);
   padding: 5px 10px;
   margin: 0;
@@ -23,14 +23,47 @@
   cursor: pointer;
   transition: all 0.2s ease-in;
 }
-.btn:hover {
-  color: var(--text-color-dark);
+.nav-btn:hover {
   background-color: var(--main-color-light);
 }
-.form-input {
+.nav-form-input {
   padding: 5px 7px;
   margin: 0 -5px;
   border: 1px solid rgb(70, 67, 67);
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
+}
+.form-box {
+  margin: 15px;
+}
+.form-box input {
+  width: 450px;
+  padding: 10px 10px;
+  margin: 0 -5px;
+  font-size: 15px;
+  border-radius: 7px;
+  border: 1px solid rgb(146, 142, 142);
+}
+.contact-btn {
+  width: 450px;
+  color: var(--text-color-light);
+  background-color: var(--main-color-dark);
+  padding: 10px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  border-radius: 7px;
+  border: 1px solid rgb(146, 142, 142);
+}
+.contact-btn:hover {
+  background-color: rgb(52, 187, 52);
+  color: var(--main-color-light);
+}
+.contact-textbox {
+  width: 450px;
+  padding: 6px 10px;
+  margin: 0 -5px;
+  font-size: 15px;
+  border-radius: 7px;
+  border: 1px solid rgb(146, 142, 142);
 }

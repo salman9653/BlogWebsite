@@ -11,16 +11,18 @@
 <body>
     <nav class="navigation max-width-1 m-auto">
         <div class="nav-left">
-            <span>Blog Z</span>
+            <span><a href="/">Blog Z</a></span>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Contact</a></li>
+                <li><a href="/"><b>Home</b></a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
         </div>
         <div class="nav-right">
-            <input class="form-input" type="text" placeholder="Search Blog">
-            <button class="btn">Search</button>
+            <form action="/search.html">
+                <input class="nav-form-input" type="text" name="query" placeholder="Search Blog">
+                <button class="nav-btn">Search</button>
+            </form>
         </div>
 
     </nav>
@@ -45,7 +47,9 @@
                 <img src="./img/article1.jpg" alt="">
             </div>
             <div class="home-article-content">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <a href="#">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
                 <span>Author Name</span>
                 <span>| 27January | 5 min read</span>
             </div>
@@ -55,7 +59,9 @@
                 <img src="./img/article2.jpg" alt="">
             </div>
             <div class="home-article-content">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <a href="#">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
                 <span>Author Name</span>
                 <span>| 27January | 5 min read</span>
             </div>
@@ -65,7 +71,34 @@
                 <img src="./img/article3.jpg" alt="">
             </div>
             <div class="home-article-content">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <a href="#">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+                <span>Author Name</span>
+                <span>| 27January | 5 min read</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="./img/article1.jpg" alt="">
+            </div>
+            <div class="home-article-content">
+                <a href="#">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+                <span>Author Name</span>
+                <span>| 27January | 5 min read</span>
+            </div>
+        </div>
+        
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="./img/article3.jpg" alt="">
+            </div>
+            <div class="home-article-content">
+                <a href="#">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
                 <span>Author Name</span>
                 <span>| 27January | 5 min read</span>
             </div>
