@@ -42,7 +42,12 @@
   margin: 0 -5px;
   font-size: 15px;
   border-radius: 7px;
-  border: 1px solid rgb(146, 142, 142);
+  border: 1px solid rgb(182, 175, 175);
+  background-color: rgb(248, 239, 228);
+}
+.form-box input:focus {
+  outline: solid 2px rgb(109, 219, 238);
+  border: 1px solid rgb(109, 219, 238);
 }
 .contact-btn {
   width: 450px;
@@ -53,7 +58,7 @@
   cursor: pointer;
   transition: all 0.2s ease-in;
   border-radius: 7px;
-  border: 1px solid rgb(146, 142, 142);
+  border: 0;
 }
 .contact-btn:hover {
   background-color: rgb(52, 187, 52);
@@ -65,5 +70,10 @@
   margin: 0 -5px;
   font-size: 15px;
   border-radius: 7px;
-  border: 1px solid rgb(146, 142, 142);
+  border: 1px solid rgb(182, 175, 175);
+  background-color: rgb(248, 239, 228);
+}
+.contact-textbox:focus {
+  outline: solid 2px rgb(109, 219, 238);
+  border: 1px solid rgb(109, 219, 238);
 }
