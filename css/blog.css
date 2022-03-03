@@ -19,7 +19,7 @@
   width: 90%;
   padding: 0 30px 30px 30px;
   display: flex;
-  background-color: #ffffff60;
+  background-color: #ffffff50;
   backdrop-filter: blur(12px);
   color: var(--text-color-dark);
   border-radius: 10px;
@@ -54,7 +54,6 @@
   border-radius: 20px;
 }
 .home-articles {
-  margin-top: 3px;
   background-image: url(../img/work7.jpg);
   background-size: cover;
 }
